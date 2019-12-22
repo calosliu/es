@@ -1,0 +1,14 @@
+{
+  "name": "elastic-search",
+  "version": "1.0.0",
+  "description": "Elastic search related experiment",
+  "main": "index.js",
+  "author": "Calos Liu",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21"
+  }
+}
