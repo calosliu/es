@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Elastic search related experiment",
   "main": "index.js",
+  "bin": {
+    "migrate": "./build/index.js"
+  },
   "author": "Calos Liu",
   "license": "MIT",
   "dependencies": {
