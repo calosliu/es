@@ -1,34 +1,39 @@
 {
-  "name": "elastic-search",
-  "version": "1.0.0",
-  "description": "Elastic search related experiment",
-  "main": "index.js",
-  "bin": {
-    "migrate": "node build/index.js"
-  },
-  "author": "Calos Liu",
-  "license": "MIT",
-  "dependencies": {
-    "commander": "^4.0.1"
-  },
-  "devDependencies": {
-    "@types/node": "^12.12.21",
-    "@typescript-eslint/eslint-plugin": "^2.19.0",
-    "@typescript-eslint/parser": "^2.19.0",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "prettier": "1.19.1",
-    "typescript": "^3.7.5"
-  },
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/calosliu/es.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/calosliu/es/issues"
-  },
-  "homepage": "https://github.com/calosliu/es#readme"
+    "name": "elastic-search",
+    "version": "1.0.0",
+    "description": "Elastic search related experiment",
+    "main": "index.js",
+    "bin": {
+        "migrate": "node build/index.js"
+    },
+    "author": "Calos Liu",
+    "license": "MIT",
+    "dependencies": {
+        "commander": "^4.0.1"
+    },
+    "devDependencies": {
+        "@types/jest": "^25.1.2",
+        "@types/node": "^12.12.21",
+        "@typescript-eslint/eslint-plugin": "^2.19.0",
+        "@typescript-eslint/parser": "^2.19.0",
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-prettier": "^3.1.2",
+        "jest": "^25.1.0",
+        "prettier": "1.19.1",
+        "ts-jest": "^25.2.0",
+        "typescript": "^3.7.5"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/calosliu/es.git"
+    },
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/calosliu/es/issues"
+    },
+    "homepage": "https://github.com/calosliu/es#readme"
 }
