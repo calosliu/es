@@ -3,5 +3,5 @@ export class Api {
 
 	test(action: string): void {
 		console.log(`this is test function ${action}`);
-	};
+	}
 }

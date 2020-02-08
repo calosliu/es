@@ -4,7 +4,7 @@
   "description": "Elastic search related experiment",
   "main": "index.js",
   "bin": {
-    "migrate": "./build/index.js"
+    "migrate": "node build/index.js"
   },
   "author": "Calos Liu",
   "license": "MIT",
@@ -12,6 +12,21 @@
     "commander": "^4.0.1"
   },
   "devDependencies": {
-    "@types/node": "^12.12.21"
-  }
+    "@types/node": "^12.12.21",
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
+    "eslint": "^6.8.0",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calosliu/es.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/calosliu/es/issues"
+  },
+  "homepage": "https://github.com/calosliu/es#readme"
 }
