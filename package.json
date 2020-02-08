@@ -25,7 +25,9 @@
         "typescript": "^3.7.5"
     },
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "clean": "rm -r build/",
+        "build": "tsc"
     },
     "repository": {
         "type": "git",

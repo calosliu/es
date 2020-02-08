@@ -3,6 +3,7 @@
 		"outDir": "./build"
 	},
 	"include": [
-		"./index.ts"
+		"index.ts",
+		"src/"
 	]
 }

@@ -16,6 +16,9 @@ parserOptions:
   sourceType: module
 plugins:
   - '@typescript-eslint/eslint-plugin'
+ignorePatterns:
+  - 'build/'
+  - 'node_modules/'
 rules:
   no-unused-vars:
     - warn
