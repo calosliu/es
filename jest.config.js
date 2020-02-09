@@ -15,7 +15,7 @@ module.exports = {
   moduleFileExtensions: [
     'js',
     'ts',
-    //   "json",
+    'json',
     //   "jsx",
     //   "tsx",
     //   "node"
