@@ -3,22 +3,22 @@ env:
   node: true
   jest: true
 extends:
-  - "eslint:recommended"
-  - "plugin:@typescript-eslint/recommended"
-  - "prettier/@typescript-eslint"
-  - "plugin:prettier/recommended"
+  - 'eslint:recommended'
+  - 'plugin:@typescript-eslint/recommended'
+  - 'prettier/@typescript-eslint'
+  - 'plugin:prettier/recommended'
 globals:
   Atomics: readonly
   SharedArrayBuffer: readonly
-parser: "@typescript-eslint/parser"
+parser: '@typescript-eslint/parser'
 parserOptions:
   ecmaVersion: 2018
   sourceType: module
 plugins:
-  - "@typescript-eslint/eslint-plugin"
+  - '@typescript-eslint/eslint-plugin'
 ignorePatterns:
-  - "build/"
-  - "node_modules/"
+  - 'build/'
+  - 'node_modules/'
 rules:
   no-unused-vars:
     - warn
