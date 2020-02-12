@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "type": "lib/index.d.ts",
   "bin": {
-    "migrate": "node build/index.js"
+    "es-migrate": "./bin/es-migrate.js"
   },
   "author": "Calos Liu",
   "license": "MIT",
@@ -31,7 +31,7 @@
   },
   "scripts": {
     "test": "jest",
-    "clean": "rm -r build/*",
+    "clean": "rm -rf lib/",
     "build": "tsc"
   },
   "repository": {
