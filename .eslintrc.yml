@@ -17,7 +17,7 @@ parserOptions:
 plugins:
   - '@typescript-eslint/eslint-plugin'
 ignorePatterns:
-  - 'build/'
+  - 'lib/'
   - 'node_modules/'
 rules:
   no-unused-vars:
